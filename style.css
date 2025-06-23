@@ -1,0 +1,31 @@
+body{
+    /* background-color:#eea980; */
+    background-image: url(https://blog.mag.com.br/wp-content/uploads/2017/05/como-economizar-energia-abre.jpg);
+        background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   background-attachment: fixed;
+}
+main{
+    background-color: #79E752; 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ p{
+    margin-left: 10px ;
+}
+
+header{
+    text-align: center;
+ color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    padding: 10px;
+}
+button{
+    background-color: rgb(204, 61, 61);
+    border: none;
+  
+}

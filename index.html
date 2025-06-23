@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images.jpeg" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <header>
+            <h2>Economize na Energia</h2>
+        </header>
+        <section>
+<label for="pot">Potência(W):</label> <input type="number" id="pot"> 
+<label for="horas">Horas:</label><input type="number" id="horas">
+<label for="cust">Custo por kWh R$:</label><input type="number" id="custo">
+<button onclick="somar()">Somar</button>
+        </section>
+        <div id="res">
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
